@@ -1,5 +1,7 @@
 # Multi Port Server for Test
 
+Open multiple ports and return OK.
+
 ## Parameters
 
 | Option | Description       | Default |
@@ -21,5 +23,6 @@ OK
 ## Build
 
 ```bash
-$ go build
+go build
+GOOS=windows GOARCH=amd64 go build # for windows
 ```
